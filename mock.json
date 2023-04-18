@@ -1,0 +1,186 @@
+{
+    "postcode": "76380002",
+    "amount": {
+        "cost": "34.53",
+        "price": "22.98"
+    },
+    "products": {
+        "AM398SHF82GHP-52": {
+            "sku": "AM398SHF82GHP-52",
+            "quantity": 1,
+            "package_id": "CrossWarehouse",
+            "prorated": {
+                "percentage": null,
+                "cost": "22.30"
+            },
+            "shipping_amount": "11.80",
+            "config_shipment_type": "1",
+            "group": {
+                "is_free": false,
+                "target_price": 149.91
+            }
+        },
+        "MR621APM30NIZ-21149": {
+            "sku": "MR621APM30NIZ-21149",
+            "quantity": 1,
+            "package_id": "Own_107227",
+            "prorated": {
+                "percentage": null,
+                "cost": "9.99"
+            },
+            "shipping_amount": "9.99",
+            "config_shipment_type": "5",
+            "group": {
+                "is_free": null,
+                "target_price": null
+            }
+        },
+        "LU759APF35RUQ-10299": {
+            "sku": "LU759APF35RUQ-10299",
+            "quantity": 1,
+            "package_id": "CrossWarehouse",
+            "prorated": {
+                "percentage": null,
+                "cost": "2.24"
+            },
+            "shipping_amount": "1.19",
+            "config_shipment_type": "1",
+            "group": {
+                "is_free": false,
+                "target_price": 149.91
+            }
+        }
+    },
+    "group": [],
+    "packages": {
+        "CrossWarehouse": {
+            "id": "CrossWarehouse",
+            "volume": 17859.540000000005,
+            "weight": 1410,
+            "time": {
+                "delivery": 12,
+                "supplier_shipment": 0,
+                "wh_processing": 1,
+                "carrier": 9,
+                "holidays": 0,
+                "weekend_days": 0,
+                "transfer_time": 0,
+                "collect_time": 1,
+                "consolidation_time": 1
+            },
+            "items": [
+                "AM398SHF82GHP-52-0",
+                "LU759APF35RUQ-10299-2"
+            ],
+            "shipment_type": "1",
+            "amount": {
+                "cost": "24.54",
+                "price": "12.99"
+            },
+            "shipping_methods": {
+                "selected_id": "CrossWarehouse-3",
+                "available": [
+                    "CrossWarehouse-3"
+                ]
+            }
+        },
+        "Own_107227": {
+            "id": "Own_107227",
+            "volume": 660,
+            "weight": 110,
+            "time": {
+                "delivery": 12,
+                "supplier_shipment": 0,
+                "wh_processing": 3,
+                "carrier": 9,
+                "holidays": 1,
+                "weekend_days": 4,
+                "transfer_time": 0
+            },
+            "items": [
+                "MR621APM30NIZ-21149-1"
+            ],
+            "shipment_type": "5",
+            "amount": {
+                "cost": "9.99",
+                "price": "9.99"
+            },
+            "shipping_methods": {
+                "selected_id": "Own_107227-1",
+                "available": [
+                    "Own_107227-1"
+                ]
+            }
+        }
+    },
+    "shipping_methods": {
+        "CrossWarehouse-3": {
+            "id": "CrossWarehouse-3",
+            "type_name": "Economic",
+            "type_code": 3,
+            "id_seller": 0,
+            "routing_cost_id": 174160388,
+            "shipping_amount": {
+                "original": "23.09",
+                "calculated_no_discount": "12.99",
+                "calculated": "12.99"
+            },
+            "effective_weight": 2982.5431800000006,
+            "factor": 167,
+            "carrier": {
+                "id": 21156449,
+                "name": "SAP:21156449"
+            },
+            "delivery_time": {
+                "total": 15,
+                "warehouse": 1,
+                "carrier": 12,
+                "supplier": 0,
+                "holidays": 0,
+                "period": {
+                    "start": "2023-05-03",
+                    "end": "2023-05-04"
+                },
+                "weekend_days": 0,
+                "transfer_time": 0,
+                "carrier_hour": 0,
+                "collect_time": 1,
+                "consolidation_time": 1
+            },
+            "available_dates": []
+        },
+        "Own_107227-1": {
+            "id": "Own_107227-1",
+            "type_name": "Normal",
+            "type_code": 1,
+            "id_seller": 107227,
+            "routing_cost_id": null,
+            "shipping_amount": {
+                "original": "9.99",
+                "calculated_no_discount": "9.99",
+                "calculated": "9.99"
+            },
+            "effective_weight": 198,
+            "factor": 300,
+            "carrier": {
+                "id": null,
+                "name": null
+            },
+            "delivery_time": {
+                "total": 12,
+                "warehouse": 3,
+                "carrier": 9,
+                "supplier": 0,
+                "holidays": 1,
+                "period": {
+                    "start": "2023-04-27",
+                    "end": "2023-04-28"
+                },
+                "weekend_days": 4,
+                "transfer_time": 0,
+                "carrier_hour": 0
+            },
+            "available_dates": []
+        }
+    }
+}
